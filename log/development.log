@@ -6,3 +6,46 @@ Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
 
 Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:02:55) [GET]
 Completed in 1323ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:40:24) [GET]
+
+NameError (uninitialized constant VideosController::ViddlerVideo):
+  app/controllers/videos_controller.rb:3:in `index'
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:41:04) [GET]
+
+NameError (uninitialized constant VideosController::ViddlerVideo):
+  app/controllers/videos_controller.rb:3:in `index'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:42:03) [GET]
+
+Errno::ENOENT (No such file or directory - viddler_credentials.yml):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/yaml.rb:143:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/yaml.rb:143:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/yaml.rb:143:in `load_file'
+  app/models/viddler_video.rb:3:in `initialize'
+  app/controllers/videos_controller.rb:3:in `new'
+  app/controllers/videos_controller.rb:3:in `index'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:42:33) [GET]
+Completed in 1332ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:43:29) [GET]
+Completed in 973ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
