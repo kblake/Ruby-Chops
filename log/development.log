@@ -1,0 +1,8 @@
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:01:29) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:02:55) [GET]
+Completed in 1323ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
