@@ -49,3 +49,529 @@ Completed in 1332ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
 
 Processing VideosController#index (for 127.0.0.1 at 2009-05-16 16:43:29) [GET]
 Completed in 973ms (View: 1, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:26:17) [GET]
+Rendering videos/index
+Completed in 1445ms (View: 5, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:29:33) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #5 of app/views/videos/index.html.erb:
+2:   <%= video.title %><br />
+3: <% end %>
+4: 
+5: <%= render @videos %>
+
+    app/views/videos/index.html.erb:5
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:30:14) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #5 of app/views/videos/index.html.erb:
+2:   <%= video.title %><br />
+3: <% end %>
+4: 
+5: <%= render @videos %>
+
+    app/views/videos/index.html.erb:5
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:30:48) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #5 of app/views/videos/index.html.erb:
+2:   <%= video.title %><br />
+3: <% end %>
+4: 
+5: <%= render @videos %>
+
+    app/views/videos/index.html.erb:5
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:34:47) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #5 of app/views/videos/index.html.erb:
+2:   <%= video.title %><br />
+3: <% end %>
+4: 
+5: <% render @videos %>
+
+    app/views/videos/index.html.erb:5
+
+Rendered rescues/_trace (39.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:36:47) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template videos/__video.erb in view path app/views) on line #5 of app/views/videos/index.html.erb:
+2:   <%= video.title %><br />
+3: <% end %>
+4: 
+5: <%= render :partial => 'videos/_video',  :collection => @videos %>
+6: <%# render @videos %>
+
+    app/views/videos/index.html.erb:5
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:36:58) [GET]
+Rendering videos/index
+Rendered videos/_video (0.3ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Completed in 2324ms (View: 7, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:37:19) [GET]
+Rendering videos/index
+Rendered videos/_video (0.4ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Completed in 1079ms (View: 5, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:38:58) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Completed in 3898ms (View: 4, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:40:25) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:47:40) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Completed in 1076ms (View: 5, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:48:38) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:49:19) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #3 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: 
+3: <%= render @videos %>
+
+    app/views/videos/index.html.erb:3
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:52:36) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:53:10) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.2ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:53:26) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'videos/video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:54:27) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.1ms)
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%= render :partial => 'video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (179.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:54:36) [GET]
+Rendering videos/index
+Rendered videos/_video (0.1ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Rendered videos/_video (0.0ms)
+Completed in 3413ms (View: 5, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:55:24) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #2 of app/views/videos/index.html.erb:
+1: <%# render :partial => 'video',  :collection => @videos %>
+2: <%= render :partial => @videos %>
+3: 
+4: <%# render @videos %>
+
+    app/views/videos/index.html.erb:2
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:55:54) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #4 of app/views/videos/index.html.erb:
+1: <%# render :partial => 'video',  :collection => @videos %>
+2: <%# render :partial => @videos %>
+3: 
+4: <%= render @videos %>
+
+    app/views/videos/index.html.erb:4
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:59:38) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #4 of app/views/videos/index.html.erb:
+1: <%# render :partial => 'video',  :collection => @videos %>
+2: <%# render :partial => @videos %>
+3: 
+4: <%= render @videos %>
+
+    app/views/videos/index.html.erb:4
+
+Rendered rescues/_trace (114.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 20:59:55) [GET]
+Rendering videos/index
+
+ActionView::TemplateError (Missing template viddler/videos/_video.erb in view path app/views) on line #4 of app/views/videos/index.html.erb:
+1: <%# render :partial => 'video',  :collection => @videos %>
+2: <%# render :partial => @videos %>
+3: 
+4: <%= render @videos %>
+
+    app/views/videos/index.html.erb:4
+
+Rendered rescues/_trace (112.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 21:01:55) [GET]
+Rendering videos/index
+Rendered viddler/videos/_video (0.4ms)
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Completed in 1047ms (View: 7, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 21:04:00) [GET]
+Rendering videos/index
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Completed in 2971ms (View: 5, DB: 0) | 200 OK [http://localhost/videos]
+
+
+Processing VideosController#index (for 127.0.0.1 at 2009-05-16 21:08:47) [GET]
+Rendering videos/index
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.1ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Rendered viddler/videos/_video (0.0ms)
+Completed in 999ms (View: 3, DB: 0) | 200 OK [http://localhost/videos]
