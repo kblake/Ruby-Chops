@@ -1,5 +1,5 @@
 class Video
-  def self.videos_for(user)
-    Viddler.api.find_all_videos_by_user(user)
+  def self.all
+    ViddlerApi.access.find_all_videos_by_user("kblake")
   end
 end
